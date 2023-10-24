@@ -4,23 +4,26 @@
 :root{
     --primary-color: #10b981;
     --dark-gray:#64748b;
-    --off-white:#cbd5e1;
+    --off-white:#e2e8f0;
 }
 body{
     font-family: 'Signika', sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    max-width: 85%;
+    width: 100%;
 }
 
  hr{
     margin: 2rem 0rem
  }
 .container{
-    padding: 0rem 1rem
+    padding: 0rem 1rem;
 }
 .container-center{
     margin: auto;
     max-width: 600px ;
+    text-align: center;
 }
 .link{
     text-decoration: none;
@@ -96,6 +99,7 @@ section{
 }
 .ow{
     background-color: var(--off-white);
+    border-radius: 8px ;
 }
 
 /* Footer */
@@ -118,4 +122,5 @@ section{
 }
 .space{
     padding: 2rem;
+    margin-top: 1rem;
 }
