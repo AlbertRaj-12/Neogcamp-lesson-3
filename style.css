@@ -81,6 +81,11 @@ body{
     margin: auto;
     display: block;
 }
+.blog-img{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
 .hero .hero-heading{
     padding-top: 1rem;
     color: var(--dark-gray);
